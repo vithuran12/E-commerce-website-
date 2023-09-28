@@ -1,0 +1,117 @@
+/* cart-item.css */
+.cartItem {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .cartItem img {
+    width: 100px; /* Adjust the width as needed */
+    height: auto;
+    margin-right: 20px;
+  }
+  
+  .cartItem .description {
+    flex: 1;
+    padding-: 10px;
+  }
+  
+  .cartItem .description p {
+    margin: 0;
+    font-size: 16px;
+    padding: 3px;
+  }
+  
+  .cartItem .description p b {
+    font-weight: bold;
+    
+  }
+  
+  .cartItem .description p:last-child {
+    color: #333; /* Adjust the color as needed */
+    
+  }
+  
+  /* cart.css */
+  .cart {
+    padding: 20px;
+  }
+  
+  .cart h1 {
+    font-size: 34px;
+    margin-bottom: 20px;
+    text-align: center;
+    background-color: black;
+    color: #fff;
+  }
+  
+  .cartItems {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300x, 1fr));
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  /* count-handler.css */
+  .countHandler{
+    padding: 5px;
+  }
+
+.countHandler button {
+  border: none;
+  cursor: pointer;
+  background-color: #fffdfd;
+  padding: 1px 5px;
+  font-size: 16px;
+  color: #000000;
+  border-radius: 2px;
+  border: 1px solid #898787; /* Add a border to the input field */
+
+}
+
+.countHandler .countItem {
+  width: 35px; /* Adjust the width as needed */
+  height: 9px;
+  text-align: center;
+  font-size: 16px;
+  border: 1px solid #898787; /* Add a border to the input field */
+  border-radius: 3px;
+  padding: 4px;
+  
+}
+
+.checkout {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+/* Adjust button and input field styles further as needed */
+
+.checkout p {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.ContinueShopping,
+.Checkout {
+  background-color: #1f1f1f;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  padding: 10px 20px;
+  font-size: 16px;
+  border-radius: 3px;
+  margin: 5px;
+}
+  /* Adjust the grid column count and minimum width as needed */
+  .cart p{
+    text-align: center;
+  }
+
+  .description{
+    text-align: center;
+    align-items: center;
+  }
